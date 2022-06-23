@@ -31,13 +31,30 @@
     <main class="content">
       <article class="article">
         <div class="article-container">
-          <h2 class="article-title">TAKYO COLLECTION</h2>
+          <h2 class="article-title">TAKYO COLLECTION 👺</h2>
           <div class="article-body">
-            <p>
-              <img src="img/takyo.png" alt="">
-              <img src="img/takyo2.png" alt="">
-              <img src="img/takyo3.png" alt="">
-            </p>
+             <div class="slide-container">
+                <div class="custom-slider fade">
+                  <div class="slide-index">1 / 3</div>
+                  <img class="slide-img" src="/img/takyo.png" />
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">2 / 3</div>
+                  <img class="slide-img" src="/img/takyo2.png" />
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">3 / 3</div>
+                  <img class="slide-img" src="img/takyo3.png" />
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br />
+              <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
             <p>
               Projet de représentation pour la collection TAKYO.
             </p>
@@ -70,5 +87,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <script type='text/javascript' src="js/carousel.js"></script>
 </body>
 </html>

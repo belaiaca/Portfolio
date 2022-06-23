@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>ABDESSAMAD BELAIACHI portfolio</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
-  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>ABDESSAMAD BELAIACHI portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-  <div class="wrapper">
-    <header class="header ">
-      <div class="container">
-        <h1 class="header-logo">
-          <a href=".">ABDESSAMAD BELAIACHI</a>
-        </h1>
-        <nav class="gnav">
-          <ul class="gnav-list">
-            <li class="gnav-item"><a href=".#works">WORKS</a></li>
-            <li class="gnav-item"><a href="./#about">ABOUT</a></li>
-            <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    
-
-    <main class="content">
-      <article class="article">
-        <div class="article-container">
-          <h2 class="article-title">DRIVE 0 DECHETS</h2>
-          <div class="article-body">
-            <p>
-              <img src="img/0 drive.PNG" alt="">
-              <img src="img/0 drive 1.PNG" alt="">
-            </p>
-            <p>
-              Projet d'études dans une équipe de 4 personnes pour une cliente qui voulait un site d'E-commerce et qui vend des produits bios 100% écologiques.
-            </p>
-            <h3>URL</h3>
-            <p><a href="https://gitlab.iut-valence.fr/mlekoy/projet-drive-0-dechets" target="_blank" rel="noopener">https://gitlab.iut-valence.fr/mlekoy/projet-drive-0-dechets</a></p>
-            <h3>Role</h3>
-            <p>Développement du front-End et du back-End des pages d'utilisateur et d'autentification / Insertion API de paiement / Bases de données</p>
-            <h3>Framework</h3>
-            <p>Symphonie</p>
-            <h3>API</h3>
-            <p>API de paiement Stipes</p>
-            <h3>Autre(s)</h3>
-            <p>
-              Docker
-            </p>
-          </div>
-          <div class="home-link">
-            <a href="./#works">Works /</a>
-          </div>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href=".">ABDESSAMAD BELAIACHI</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href=".#works">WORKS</a></li>
+              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
-      </article>
+      </header>
 
-      <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
-      </div>
-    </main>
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">DRIVE 0 DECHETS ♻️</h2>
+            <div class="article-body">
+              <div class="slide-container">
+                <div class="custom-slider fade">
+                  <div class="slide-index">1 / 2</div>
+                  <img class="slide-img" src="/img/0 drive.PNG" />
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">2 / 2</div>
+                  <img class="slide-img" src="/img/0 drive 1.PNG" />
+                </div>
 
-    
-    <footer class="footer">
-      <div class="copyright">ABDESSAMAD BELAIACHI 🦜</div>
-    </footer>
-  
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br />
+              <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+              </div>
 
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type='text/javascript' src="js/script.js"></script>
-</body>
+              <p>
+                Projet d'études dans une équipe de 4 personnes pour une cliente
+                qui voulait un site d'E-commerce et qui vend des produits bios
+                100% écologiques.
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://gitlab.iut-valence.fr/mlekoy/projet-drive-0-dechets"
+                  target="_blank"
+                  rel="noopener"
+                  >https://gitlab.iut-valence.fr/mlekoy/projet-drive-0-dechets</a
+                >
+              </p>
+              <h3>Role</h3>
+              <p>
+                Développement du front-End et du back-End des pages
+                d'utilisateur et d'autentification / Insertion API de paiement /
+                Bases de données
+              </p>
+              <h3>Framework</h3>
+              <p>Symphonie</p>
+              <h3>API</h3>
+              <p>API de paiement Stipes</p>
+              <h3>Autre(s)</h3>
+              <p>Docker</p>
+            </div>
+            <div class="home-link">
+              <a href="./#works">Works /</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="copyright">ABDESSAMAD BELAIACHI 🦜</div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+  </body>
 </html>
