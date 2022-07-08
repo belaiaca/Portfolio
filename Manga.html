@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ABDESSAMAD BELAIACHI portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href=".">ABDESSAMAD BELAIACHI</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href=".#works">WORKS</a></li>
+              <li class="gnav-item"><a href="./#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="./#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content">
+        <article class="article">
+          <div class="article-container">
+            <h2 class="article-title">MANGA SCAN </h2>
+            <div class="article-body">
+              <div class="slide-container">
+                <div class="custom-slider fade">
+                  <div class="slide-index">1 / 3</div>
+                  <img class="slide-img" src="/img/manga2.png" />
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">2 / 3</div>
+                  <img class="slide-img" src="/img/manga4.png" />
+                </div>
+                 <div class="custom-slider fade">
+                  <div class="slide-index">3 / 3</div>
+                  <img class="slide-img" src="/img/manga3.png" />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br />
+              <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+              </div>
+              <p>
+                MANGA SEA est un site permettant à tout le monde de faire de nouvelles découvertes manga.
+              </p>
+              <h3>URL</h3>
+              <p>
+                <a
+                  href="https://friendly-monstera-a6b890.netlify.app"
+                  target="_blank"
+                  rel="noopener"
+                  >https://friendly-monstera-a6b890.netlify.app
+                >
+              </p>
+              <p>
+                <a
+                  href="https://github.com/belaiaca/Manga-Scan-v2"
+                  target="_blank"
+                  rel="noopener"
+                  >https://github.com/belaiaca/Manga-Scan-v2</a
+                >
+              </p>
+
+              <h3>Role</h3>
+              <p>
+                Développement du front-End et du back-End des pages /
+                Design du site et du logo
+              </p>
+              <h3>Librairie JS</h3>
+              <p>MagicScroll.js , Swiper.js</p>
+              
+              <h3>Intégration</h3>
+              <p>KANA</p>
+            </div>
+            <div class="home-link">
+              <a href="./#works">Works /</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="copyright">ABDESSAMAD BELAIACHI 🦜</div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+  </body>
+</html>
